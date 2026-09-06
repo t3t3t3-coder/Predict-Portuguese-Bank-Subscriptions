@@ -1,6 +1,6 @@
 # Will a Client Subscribe to a Term Deposit?
 
-A data analysis and lead-prioritization tool built for a bank's telemarketing campaign, using a dataset of 41,188 phone-marketing contacts to identify which clients are most likely to subscribe to a term deposit, so outreach can be prioritized toward the leads most worth calling.
+A data analysis and lead-prioritization tool built for a bank's telemarketing campaign, using a dataset of 41,188 (`bank-additional-full.csv`) phone-marketing contacts to identify which clients are most likely to subscribe to a term deposit, so outreach can be prioritized toward the leads most worth calling.
 
 **NOTE:** Support Vector Machine (SVC) models in this analysis were trained on a smaller sample of the data (`bank-additional.csv`, 4,119 rows) rather than the full dataset (41,187 rows), because SVM training on the full dataset exceeded available memory and crashed the notebook. SVC results are directionally useful but not directly comparable to the full-dataset models — see "Where the model struggles" below.
 
