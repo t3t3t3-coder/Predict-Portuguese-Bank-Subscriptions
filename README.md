@@ -4,7 +4,7 @@ A data analysis and lead-prioritization tool built for a bank's telemarketing ca
 
 **NOTE:** Support Vector Machine (SVC) models in this analysis were trained on a smaller sample of the data (`bank-additional.csv`, 4,119 rows) rather than the full dataset (41,187 rows), because SVM training on the full dataset exceeded available memory and crashed the notebook. SVC results are directionally useful but not directly comparable to the full-dataset models — see "Where the model struggles" below.
 
-**📓 Full analysis notebook:** [prompt_III_with_timing.ipynb](prompt_III_with_timing.ipynb)
+**📓 Full analysis notebook:** [Predict_Bank_Subscription.ipynb](prompt_III_with_timing.ipynb)
 
 ---
 
